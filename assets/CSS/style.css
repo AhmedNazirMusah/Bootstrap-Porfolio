@@ -1,19 +1,41 @@
 .big-div {
-    overflow: hidden;
-    margin: bottom 150px;;
-    max-width: unset;
-    background-color: #e5e5e5;
-  }
+  overflow: hidden;
+  margin: bottom 150px;
+  max-width: unset;
+  background-color: #e5e5e5;
+}
 
 .intro-container {
-    background: url(../images/header-desktop.png);
-    background-size: 100%;
-    border-bottom-left-radius: 80px;
-    background-repeat: no-repeat;
-    background-color: white;
+  background: url(../images/header-desktop.png);
+  background-size: 100%;
+  border-bottom-left-radius: 80px;
+  background-repeat: no-repeat;
+  background-color: white;
 }
 
 .small-intro {
   padding-top: 160px;
   padding-bottom: 160px;
+}
+
+.form-contact {
+  background-color: #6070ff;
+  color: #fff;
+  justify-content: center;
+  justify-items: center;
+  background-image: url(/assets/images/abc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading {
+  margin-top: 20%;
+}
+.form-group {
+  padding: 0.5rem;
+}
+.form-group input {
+  height: 4rem;
+}
+.form-contact textarea {
+  width: -webkit-fill-available;
 }
