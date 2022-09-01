@@ -1,0 +1,19 @@
+.big-div {
+    overflow: hidden;
+    margin: bottom 150px;;
+    max-width: unset;
+    background-color: #e5e5e5;
+  }
+
+.intro-container {
+    background: url(../images/header-desktop.png);
+    background-size: 100%;
+    border-bottom-left-radius: 80px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.small-intro {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
